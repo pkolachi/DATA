@@ -1,0 +1,20 @@
+This data was collected during an experiment aiming at automatically translating a novel.
+More precisely a pipeline machine translation + post-editing was used and evaluated (MT+PE).
+This repository is organized as follows:
+
+- EN : The source data in English (the novel segmented into segments)
+	source.all : initial text
+	source.pre.all : tokenized text
+	tier1, tier2 and tier3 correspond to 3 blocs of equivalent size (because after 1st bloc is translated, the MT system is adapated ; then second bloc is translated, etc. - see associated paper for more details)
+
+- FR : The target data in French
+	MT : MT outputs for the 3 iterations of the translation process
+	(hyp.all refers to the whole novel automatically translated with system of iteration i)
+	PE : Post-edited outputs from each MT outputs
+	(reference.all refers to the whole novel translated + post-edited)
+
+- NouvelleTraduiteFR.pdf : is the final translated novel in French that was obtained after 25h of human work (15h postedition + 10h revision)
+
+- Survey.ods : is the result of a survey done by 9 readers of the French translated novel (NouvelleTraduiteFR.pdf) 
+
+-taln-anonyme.pdf : is the paper describing this work (in French) 
