@@ -19,18 +19,24 @@ This repository is organized as follows:
 
 -taln-besacier.pdf : is the paper describing this work (in French) 
 
-Cite the following bibtex for this work
+-WSliterature.pdf : is the paper describing this work (in English)
 
-@InProceedings { besacier:hal-01003944,
-  author = {Besacier, Laurent},
-  title = {{T}raduction automatisée d'une oeuvre littéraire: une étude pilote},
-  booktitle = {{T}raitement {A}utomatique du {L}angage {N}aturel ({TALN})},
-  year = {2014},
-  address = {Marseille, France},
-  month = {jul},
-  abstract = {{C}urrent machine translation ({MT} ) techniques are continuously improving. {I}n specific areas, post-editing ({PE}) allows to obtain high-quality translations relatively quickly. {B}ut is such a pipeline ({MT}+{PE}) usable to translate a lite- rary work (fiction, short story) ? {T}his paper tries to bring a preliminary answer to this question. {A} short story by {A}merican writer {R}ichard {P}owers, still not available in {F}rench, is automatically translated and post-edited and then revised by non- professional translators. {T}he {LIG} post-editing platform allows to read and edit the short story suggesting (for the future) a community of readers-editors that continuously improve the translations of their favorite author. {I}n addition to presen- ting experimental evaluation results of the pipeline {MT}+{PE} ({MT} system used, auomatic evaluation), we also discuss the quality of the translation output from the perspective of a panel of readers (who read the translated short story in {F}rench, and answered to a survey afterwards). {F}inally, some remarks of the official french translator of {R}. {P}owers, requested on this occasion, are given at the end of this article.},
-  x-international-audience = {yes},
-  url = {http://hal.inria.fr/hal-01003944},
-  pdf = {http://hal.inria.fr/hal-01003944/PDF/taln-besacier.pdf},
+Cite the following bibtex for this work (better to cite the English paper)
+
+
+
+@inproceedings{besacier:hal-01147903,
+  TITLE = {{Automated translation of a literary work: a pilot study}},
+  AUTHOR = {Besacier, Laurent and Schwartz, Lane},
+  URL = {https://hal.archives-ouvertes.fr/hal-01147903},
+  BOOKTITLE = {{Fourth Workshop on Computational Linguistics for Literature - co-located with NAACL 2015}},
+  ADDRESS = {Denver, United States},
+  YEAR = {2015},
+  MONTH = Jun,
+  KEYWORDS = {machine translation  ;  post-edition  ;  literary work  ;  quality estimation},
+  PDF = {https://hal.archives-ouvertes.fr/hal-01147903/file/WSlitterature.pdf},
+  HAL_ID = {hal-01147903},
+  HAL_VERSION = {v1},
 }
+
 
