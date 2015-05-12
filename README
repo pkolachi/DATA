@@ -12,8 +12,10 @@ This repository is organized as follows:
 	(hyp.all refers to the whole novel automatically translated with system of iteration i)
 	PE : Post-edited outputs from each MT outputs
 	(reference.all refers to the whole novel translated + post-edited)
+	
+	REVISION : The final text revised 
 
-- NouvelleTraduiteFR.pdf : is the final translated novel in French that was obtained after 25h of human work (15h postedition + 10h revision)
+- NouvelleTraduiteFR.pdf : is the final translated novel in French that was obtained after 25h of human work (15h postedition + 10h revision) ; equivalent to the text in REVISION but in a readable format
 
 - Survey.ods : is the result of a survey done by 9 readers of the French translated novel (NouvelleTraduiteFR.pdf) 
 
